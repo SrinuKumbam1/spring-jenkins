@@ -16,6 +16,7 @@ public class SpringJenkinsApplication {
 	@PostConstruct
 	public void initEun() {
 		log.info("Application started...");
+		System.out.println("from initEnum");
 	}
 	
 	public static void main(String[] args) {
